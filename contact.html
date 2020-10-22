@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MY E-RESUME | Welcome!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- description of what this project actually is about -->
+    <meta name="description"
+        content="eResume for my Milestone project as well as to showcase my expertise in designing and programming">
+    <!-- these keywords will optimize SEO -->
+    <meta name="keywords"
+        content="web desin, JavaScript Programming, eResume for freelancer, resume for freelancer, personal resume , personal / professional resume online">
+    <meta name="author" content="Bibhuti Ghimire">
+    <!-- Linking reset and css style file -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Linking JS File -->
+    <script src="js/scripts.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="img/logo.png" alt="Logo">
+            <h1>My e-Resume</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Work Exp</a></li>
+
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <!-- This section holds Contact Me Form -->
+            <section>
+                <h2>Contact Me</h2>
+                <form class="form" id="form" method="POST" enctype="multipart/form-data" name="Email from e-Resume">
+                    <!-- First Name Box Div -->
+                    <div class="form-control ">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="First Name..">
+                        <small>Enter First Name</small><!-- small is a placeholder to store error message if any -->
+                    </div>
+                    <!-- First Name Box Div end -->
+                    <!-- Last Name Box Div -->
+                    <div class="form-control ">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Last Name..">
+                        <small>Enter Last Name</small><!-- small is a placeholder to store error message if any -->
+                    </div>
+                    <!-- Last Name Box Div end -->
+                    <!-- Email Address Box Div -->
+                    <div class="form-control ">
+                        <label for="email">Email Address</label>
+                        <input type="text" id="email" name="email" placeholder="Email Address..">
+                        <small>Enter Valid Email Address </small>
+                        <!-- small is a placeholder to store error message if any -->
+                    </div>
+                    <!-- Email Address Box Div ends-->
+                    <!-- Re-Enter Email Address Box Div -->
+                    <div class="form-control ">
+                        <label for="reenteremail">Re-Enter Email Address</label>
+                        <input type="text" id="reenteremail" name="email" placeholder="Re-Enter Email Address..">
+                        <small>Enter Valid Email Address </small>
+                        <!-- small is a placeholder to store error message if any -->
+                    </div>
+                    <!-- Re-Enter Email Address Box Div end -->
+                    <!-- Subject Box Div -->
+                    <div class="form-control ">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject..">
+                        <small>Enter Valid Subject</small><!-- small is a placeholder to store error message if any -->
+                    </div>
+                    <!-- Subject Box Div end -->
+                    <!-- Message Box Div -->
+                    <div class="form-control ">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message"
+                            placeholder="Professional Words can only be used in Message. kill, fight, slap, feldercarb, frack, skinjob, vulgacarb words will not allow form to be submitted."
+                            style="height:200px"></textarea>
+                        <small>Enter Valid Message</small> <!-- small is a placeholder to store error message if any -->
+                    </div>
+                    <!-- Message Box Div end -->
+                    <!-- Submit Button  -->
+                    <button type="submit" id="sendEmailLink">Send </button>
+                    <!-- Submit Button end -->
+                </form>
+            </section>
+        </main>
+        <!-- beginning of footer -->
+        <footer>
+            <!-- beginning of footer nav -->
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Work Exp</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- end of footer nav -->
+            <p>Copyright @ Bibhuti Resume Inc</p>
+            <div class="desktopOnly">
+                <button onclick="TopFunction()" id="myBtn" title="Go to top">Top</button>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+    </div>
+    <!-- end of container div-->
+</body>
+
+</html>
